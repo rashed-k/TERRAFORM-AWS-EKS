@@ -11,11 +11,13 @@ sudo yum install -y yum-utils
 ```
 <br />
 Use yum-config-manager to add the official HashiCorp Linux repository.
+<br />
 ```
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 ```
 <br />
 Install.
+<br />
 ```
 sudo yum -y install terraform
 ```
