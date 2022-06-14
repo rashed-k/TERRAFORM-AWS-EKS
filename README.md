@@ -20,3 +20,7 @@ sudo yum -y install terraform
 # Download the repo from Github 
 
 https://github.com/hashicorp/terraform-provider-aws
+
+<br />
+
+Once Downloaded, check into eks-getting-started directory ---> /terraform-provider-aws/examples/eks-getting-started
