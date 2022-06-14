@@ -8,7 +8,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 choose your downloads depending on Operating System - https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 
-Install Linux - 
+Installing in Amazon Linux - 
 ```
 sudo yum install -y yum-utils
 
