@@ -5,19 +5,15 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 # Install Terraform
 
-Install yum-config-manager to manage your repositories.
+choose your downloads depending on Operating System - https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+
+Install Linux - 
 ```
 sudo yum install -y yum-utils
-```
- <br />
-Use yum-config-manager to add the official HashiCorp Linux repository.
- <br />
-```
+
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
-```
- <br />
-Install.
- <br />
-```
+
 sudo yum -y install terraform
 ```
+
