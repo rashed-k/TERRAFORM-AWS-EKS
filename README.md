@@ -26,4 +26,21 @@ https://github.com/hashicorp/terraform-provider-aws
 
 <br />
 
-Once Downloaded, check into eks-getting-started directory ---> /terraform-provider-aws/examples/eks-getting-started
+Once Downloaded, check-in eks-getting-started directory ---> /terraform-provider-aws/examples/eks-getting-started
+
+
+# Apply Terraform 
+
+Explore the files related to Eks-cluster,Eks-worker,providers,vpc,workstation-external-ip and variables before execution. 
+```
+terraform init 
+terraform plan
+terraform apply
+```
+<br />
+
+confirm the resources are applied.
+```
+terraform state list
+```
+
