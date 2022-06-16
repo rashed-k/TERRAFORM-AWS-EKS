@@ -2,6 +2,13 @@
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
+# Install AWS-IAM-AUTHENTICATOR
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+
+# Install kubectl
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 # Install Terraform
 
@@ -39,8 +46,26 @@ terraform apply
 ```
 <br />
 
-confirm the resources are applied.
+Confirm the resources are applied once the cluster is created.
 ```
 terraform state list
 ```
+
+# Output - Kubeconfig 
+
+To access control to cluster
+
+```
+terraform output kubeconfig > ~/.kube/config 
+export KUBECONFIG=$KUBECONFIG:~/.kube/config
+```
+
+Alternative way to access by AWS CLI - 
+```
+aws eks update-kubeconfig --region region-code --name cluster-name
+```
+
+
+
+
 
