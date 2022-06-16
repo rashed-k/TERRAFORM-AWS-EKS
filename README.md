@@ -60,7 +60,7 @@ terraform output kubeconfig > ~/.kube/config
 export KUBECONFIG=$KUBECONFIG:~/.kube/config
 ```
 
-Alternative way to access by AWS CLI - 
+Alternative way to gain access by AWS CLI - 
 ```
 aws eks update-kubeconfig --region region-code --name cluster-name
 ```
