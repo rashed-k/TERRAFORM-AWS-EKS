@@ -65,7 +65,7 @@ Alternative way to gain access by AWS CLI -
 aws eks update-kubeconfig --region region-code --name cluster-name
 ```
 
-# Always double check EKS cluster in AWS website. 
+
 
 
 
